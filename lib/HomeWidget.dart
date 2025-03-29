@@ -48,7 +48,7 @@ class _HomeWidgetState extends State<HomeWidget> {
         child: ElevatedButton(
           onPressed: () async {
             String message = await _generateMessage();
-            sendWhatsAppMessage(message, '9818899689'); // Replace with user phone number
+            sendWhatsAppMessage(message, '9845******'); // Replace with user phone number
           },
           child: const Text('Send Motivational Message'),
         ),
